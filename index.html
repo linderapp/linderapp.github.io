@@ -12,8 +12,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background: #00222d;
-  font-family: "Montserrat", sans-serif;
+  background: #fff;
   font-size: 16px;
 }
 body {
@@ -21,7 +20,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  align-content: center;
+  align-content: stretch;
 }
 h1 {
   color: #f1c40f;
@@ -37,48 +36,29 @@ h1 {
   }
 }
 p {
-  color: #f1c40f;
+  color: #000;
   font-size: 0.8rem;
   width: 100%;
   padding: 20px;
   text-align: center;
 }
-.btn {
-  box-sizing: border-box;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  background-color: transparent;
-  border: 2px solid #e74c3c;
-  border-radius: 0.6em;
-  color: #e74c3c;
-  cursor: pointer;
-  display: flex;
-  align-self: center;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1;
-  margin: 20px;
-  padding: 1.2em 2.8em;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-}
 .btn:hover, .btn:focus {
   color: #fff;
   outline: 0;
-}
-.third {
-  border-color: #3498db;
-  color: #fff;
-  box-shadow: 0 0 2px 0 #3498db inset, 0 0 8px 1px #3498db;
 }
 .sb-img {
   max-width: 281px;
   height: 281px;
 }
+.btn {
+  outline:none;
+  margin: 11px;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  background: transparent;
+  }
 </style>
   
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -104,8 +84,8 @@ p {
 <img src="" class="sb-img js-img" data-hastag="LGBT"/>
 <p>LGBT</p>
 <!-- partial:index.partial.html -->
-<button class="btn third"><a style="color: #ffffff" href="/feed" class="twitter-follow-button" data-show-count="false" data-size="large">Feed</a></button>
-<button class="btn third"><a style="color: #ffffff" href="https://minnit.chat/Linder?embed&nickname=" class="twitter-follow-button" data-show-count="false" data-size="large">Chat</a></button>
+<button class="btn third"><a style="color: #000;text-decoration:none" href="/feed" class="twitter-follow-button" data-show-count="false" data-size="large">Feed</a></button>
+<button class="btn third"><a style="color: #000;text-decoration:none" href="https://minnit.chat/Linder?embed&nickname=" class="twitter-follow-button" data-show-count="false" data-size="large">Chat</a></button>
 <p>Inspiration for new ways to make interactive!</p>
 
 <!-- partial -->
